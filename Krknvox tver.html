@@ -1,0 +1,20 @@
+<html>
+    <head>
+       <script>
+
+         const arraysize= +prompt('add size'); 
+         let arr=[];
+     
+         for (let i=0; i < arraysize; i++){
+              arr.push(+prompt('insert size'));
+         }
+        let havasar = arr.filter(myfunction);
+        function myfunction(total, value){
+            return total===value;
+        }
+        document.write(havasar);
+     
+
+       </script>
+    </head>
+</html>

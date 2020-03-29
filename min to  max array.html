@@ -1,0 +1,19 @@
+<html>
+    <head>
+       <script>
+           
+     const arraysize= +prompt('add size'); 
+     let arr=[];
+         for (let i=0; i < arraysize; i++){
+              arr.push(+prompt('insert size'));
+         }
+         function myfunction(){
+             arr.sort(function(a, b){return a - b});
+             return arr;
+         } 
+         document.write(myfunction());
+         
+        
+       </script>
+    </head>
+</html>
